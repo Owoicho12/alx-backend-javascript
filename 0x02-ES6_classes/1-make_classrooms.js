@@ -8,5 +8,4 @@ function initializeRooms() {
   return [classroom1, classroom2, classroom3];
 }
 
-const classrooms = initializeRooms();
-console.log(classrooms); // Output: [ClassRoom { _maxStudentsSize: 19 }, ClassRoom { _maxStudentsSize: 20 }, ClassRoom { _maxStudentsSize: 34 }]
+export default initializeRooms;
