@@ -5,16 +5,16 @@ export interface Student {
   location: string;
 }
 const studentA: Student = {
-  firstName: "Harry",
-  lastName: "Yoon",
-  age: 22,
-  location: "Seoul, South Korea",
+  firstName: "Oloyede",
+  lastName: "Shola",
+  age: 26,
+  location: "LAgos, Nigeria",
 };
 const studentB: Student = {
-  firstName: "Anjali",
-  lastName: "Prajapati",
+  firstName: "Enitan",
+  lastName: "Oloyede",
   age: 22,
-  location: "Lodz, Poland",
+  location: "Johannesburg, South Africa",
 };
 
 const studentsList: Array<Student> = [
@@ -57,7 +57,7 @@ const styleSheet = `
 /**
  * Displays information about students in a table.
  * @param students The list of students to display.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author Olatunde Oloyede <https://github.com/sirtuns4real>
  */
 export const displayStudents = (students: Array<Student>): void => {
   const table = document.createElement('table');
