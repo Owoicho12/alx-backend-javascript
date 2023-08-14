@@ -1,8 +1,4 @@
-YourClass.prototype.getResponseFromAPI = function () {
+function getResponseFromAPI() {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const response = getResponseFromAPI();
-      resolve(response);
-    }, 2000);
-  });
-};
+  };
+}
